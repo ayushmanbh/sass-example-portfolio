@@ -9,7 +9,7 @@
   .btn-line {
     width: 28px;
     height: 3px;
-    background: white;
+    background: set-text-color($primary-color);
     @include easeOut;
     margin: 0px 0px 5px 0px;
   }
@@ -88,7 +88,6 @@
       background: url("../img/portrait.jpg");
       border: solid 3px $secondary-color;
       border-radius: 50%;
-      opacity: 1;
     }
   }
 
@@ -112,7 +111,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: white;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
